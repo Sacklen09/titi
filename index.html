@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Corazón con mensaje</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .corazon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 100px;
+      background-color: #ff69b4;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .mensaje {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="corazon" onclick="mostrarMensaje()">❤️</div>
+  <div class="mensaje" id="mensaje">
+    <h2>Te amo mi amor</h2>
+    <p>Eres mi vida entera.
+        Gracias por ser tú, por ser parte de mi vida, le das un color y un brillo a mi vida que no te imaginas la felicidad que me das.
+        estaba practicando y quise hacer esto para ti.
+        
+       Recuerda la mujer tan increible que eres, maravillosa, fuerte, inteligente, valiosa, valiente y capaz de lograr todo.
+        Que sepas que siempre estaré para ti, en todo momento, te voy a apoyar en todo lo que pueda y siempre buscaré la solución.
+        Te cuidaré con mi vida si es necesario.
+        Te amaré con toda mi vida, corazón y alma por la eternidad.
+        Tocaste mi corazon de una manera tan hermosa que me tienes amándote todos los días cada vez más y más. Te prometo mi amor eterno y nunca me iré de tu vida a menos que tu quieras.
+        Seamos solo Tú y yo en está vida, cumplir nuestas metas juntos y llegar a la cima juntos, eso es lo que más deseo.
+        Lo que más quiero en esta vida, es que tú seas feliz a mi lado, te sientas segura y comoda conmigo.
+        Te amo, te quiero y te adoro con toda mi alma.
+        Mutos Beshitos y abiasos para ti.
+        Tu Tete❤️❤️❤️❤️❤️
+        <s class=""></s>
+    </p>
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("mensaje").style.display = "block";
+    }
+  </script>
+</body>
+</html>
